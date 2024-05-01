@@ -25,7 +25,9 @@ if operator_selection==4:
     multiplication = val1*val2
     print( multiplication)
 
-
+#error handeling
+if operator_selection>=5:
+    print("Please enter number corresponding to the operator")
 
 
     
